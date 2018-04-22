@@ -5,7 +5,7 @@
 A ReactJS project using Punk API (https://punkapi.com/documentation/v2).
 
 
-[View demo](https://magdalenazielinska.github.io/Beer-Catalogue)
+[View demo](https://magdalenazielinska.github.io/Beer-Catalogue/)
 
 
 
