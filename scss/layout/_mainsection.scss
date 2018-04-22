@@ -1,0 +1,12 @@
+.main {
+  background-color: $color-gray-light;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 3rem;
+
+  @media #{$bigdevice} {
+    justify-content: space-around;
+  }
+}

@@ -1,0 +1,15 @@
+.header {
+  background-image: linear-gradient(
+                  to right bottom,
+                  rgba($color-blue-light, 0.8),
+                  rgba($color-blue-medium, 0.8));
+  padding: 1rem 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  @media #{$bigdevice} {
+    flex-direction: row;
+  }
+}

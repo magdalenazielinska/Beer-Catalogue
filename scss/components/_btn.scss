@@ -1,0 +1,28 @@
+.btn {
+  box-shadow: 0 0 .4rem 0 $color-gray-medium;
+  margin: 1rem;
+  border-radius: .5rem;
+  cursor: pointer;
+
+  @media #{$bigdevice} {
+    margin: 0;
+  }
+
+  &:active {
+    transform: scale(.9);
+  }
+}
+
+.btn--close-modal {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: .5rem 2rem;
+}
+
+.btn--open-modal {
+  width: 40%;
+  text-align: left;
+  padding: .5rem;
+  margin-top: .5rem;
+}
